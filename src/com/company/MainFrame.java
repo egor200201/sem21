@@ -71,7 +71,7 @@ public class MainFrame extends JFrame{
                     try {
 
                         field.sandpaper(Double.parseDouble(JOptionPane.
-                                showInputDialog("Enter sandpaper value: ", 1)));
+                                showInputDialog("Enter value: ", 1)));
                         sandpaperMenuItem.setSelected(true);
                     } catch (InterruptedException interruptedException) {
                         interruptedException.printStackTrace();

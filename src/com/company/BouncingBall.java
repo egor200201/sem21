@@ -24,7 +24,7 @@ public class BouncingBall implements Runnable{
     private double speedX;
     private double speedY;
 
-    // private double friction;
+
 
     public BouncingBall(Field field){
 
@@ -37,8 +37,7 @@ public class BouncingBall implements Runnable{
             speed = MAX_SPEED;
         }
         mainSpeed = speed;
-        //if(friction != 1)
-        //  setSpeed(friction);
+
 
         double angle = Math.random()*2*Math.PI;
         speedX = 3*Math.cos(angle);
